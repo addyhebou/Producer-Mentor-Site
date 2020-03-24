@@ -151,6 +151,11 @@ header{
     opacity: 0;
 }
 
+li{
+    margin: 7px 0px;
+}
+
+
 
 main{
     z-index:0;
