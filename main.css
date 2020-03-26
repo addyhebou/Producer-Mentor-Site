@@ -220,11 +220,27 @@ main{
 #titleHolder{
     height: 605px;
     overflow: hidden;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Media/Me\ Playing\ Synth\ .mp4');
+    /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Media/Me\ Playing\ Synth\ .mp4'); */
     background-size:     cover;                     
     background-repeat:   no-repeat;
     background-position: 50% 50%;
+    background-color: aqua;
 } 
+
+/* #titleHolder video{
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 605px;
+    width: auto; 
+    height: auto; 
+    z-index: 0;
+    background-size: cover;
+    overflow: hidden;
+    
+    
+} */
 
 ul li{
     font-size: 30px;
