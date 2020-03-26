@@ -5,12 +5,12 @@
 
 @keyframes load{
     from {width: 0px;}
-    to {width: 40px;}
+    to {width: 60px;}
 }
 
 @keyframes out{
     from {width: 0px;}
-    to {width: 40px;}
+    to {width: 60px;}
 }
 
 body{
@@ -70,7 +70,7 @@ header{
 
 .menuItem:hover .loadList{
     animation-name: load;
-    width: 40px;
+    width: 60px;
 }
 
 .menu li{

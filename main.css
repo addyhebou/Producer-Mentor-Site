@@ -43,13 +43,6 @@ a{
     font-weight: normal;
 }
 
-.contactInfo{
-    display: inline-flex;height: 1px;
-    margin-left: 150px;
-    margin-right: 0px;
-    text-align: center;
-}
-
 .content{
     /* background-color: red; */
     margin: 40px 0px;
@@ -122,6 +115,19 @@ h1{
     font-weight: 500;
     padding: 30px;
     text-align: center;
+}
+
+h2{
+    color: hsl(0, 0%, 13%);
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 ~ h2{
+    padding-top: 10px;
 }
 
 header{

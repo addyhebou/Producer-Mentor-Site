@@ -5,6 +5,7 @@ function turnOnNight(){
     document.getElementById("bckgrnd").style.backgroundColor = "#121212";
     document.querySelectorAll('li').forEach(e => e.style.color = "white");
     document.querySelectorAll('h1').forEach(e => e.style.color = "white");
+    document.querySelectorAll('h2').forEach(e => e.style.color = "white");
     document.querySelectorAll('i').forEach(e => e.style.color = "white");
     document.querySelectorAll('p').forEach(e => e.style.color = "white");
     document.getElementById('grayBox').style.backgroundColor = "#262626";
@@ -18,6 +19,7 @@ function turnOffNight(){
     document.getElementById("bckgrnd").style.backgroundColor = "white";
     document.querySelectorAll('li').forEach(e => e.style.color = "black");
     document.querySelectorAll('h1').forEach(e => e.style.color = "black");
+    document.querySelectorAll('h2').forEach(e => e.style.color = "black");
     document.querySelectorAll('i').forEach(e => e.style.color = "black");
     document.querySelectorAll('p').forEach(e => e.style.color = "black");
     document.getElementById('grayBox').style.backgroundColor = "white";
