@@ -8,6 +8,7 @@
     <link rel = "stylesheet" href = "header.css">
     <link rel = "stylesheet" href = "main.css">
     <link rel = "stylesheet" href = "footer.css">
+    <link rel = "stylesheet" href = "responsive.css">
     <script src="https://kit.fontawesome.com/c5d1036b50.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="titleCard.js"></script>
 </head>
@@ -23,7 +24,7 @@
                 <a href = "hhttps://soundcloud.com/saintstephmusic" target="_blank"><i class="fab fa-soundcloud social"></i></a>
                 <a href = "https://music.apple.com/us/playlist/saint-steph-behind-the-boards/pl.u-DdANrX5T0GdX0o" target="_blank">
             </div>
-    
+            <img class = "topLogo mobile" src = "icons/Saint Steph Logo SUNSET TRANSPARENT.png">
             <div class = "menu">
                 <li class = "menuItem" id = "item">
                     <div id = "grayBox"></div>
@@ -51,7 +52,6 @@
                     <a href = "#contact"><p>Contact</p></a>
                     <div class = "loadList purp"></div>
                 </li>
-                
             </div>
             <div class = "icons" style = "margin: 0;">
                 <i id = "moon" class="fas fa-moon social moon" onmouseover = "shiftColors()" onmouseout="shiftColors()" onclick = "shiftColors()"></i>
@@ -60,7 +60,7 @@
     </header>
     <main>
         <div id = "titleHolder">
-            <video width = "1305px" style = "" autoplay muted>
+            <video width = "1305px" autoplay muted>
                 <source src="Media/Me Playing Synth .mp4" type="video/mp4">
             </video>
             <div id = "title"></div>
@@ -114,7 +114,7 @@
             <div class = "content" style = "margin-bottom: 0px;">
                 <h1 id = "strengths" style = "padding-bottom: 10px;">Strengths</h1>
                 <h2>Hover of each icon to discover a strength</h2>
-                <div class = "exp_icons">
+                <div class = "exp_icons desktop">
                     <div class = "iconBox">
                         <img style = "height: 60px"src = "piano.png">
                         <p>Multi-Instrumentalist</p>
@@ -144,6 +144,44 @@
                         <img style = "height: 60px"src = "adobe.png">
                         <p>Fluent in Adobe Creative Suite</p>
                         <p style = "font-size: 20px;">Cartoons, graphics, videos, SFX</p>
+                    </div>
+                </div>
+                <div class = "exp_icons mobile">
+                    <div class = "row">
+                        <div class = "iconBox">
+                            <img style = "height: 60px"src = "piano.png">
+                            <p>Multi-Instrumentalist</p>
+                            <p style = "font-size: 20px;">Piano, Guitar, Drums</p>
+                        </div>
+                        <div class = "iconBox">
+                            <img style = "height: 60px"src = "ear.png">
+                            <p>Ear Trained</p>
+                            <p style = "font-size: 20px;">Can identify and perform chord progressions, intervals, and melodies at rapid pace</p>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "iconBox">
+                            <img style = "height: 60px"src = "playlist.png">
+                            <p>Music Theory</p>
+                            <p style = "font-size: 20px;">Strong at Intervals, Terminology, etc.</p>
+                        </div>
+                        <div class = "iconBox">
+                            <img style = "height: 60px"src = "mac.png">
+                            <p>Tech-Oriented</p>
+                            <p style = "font-size: 20px;">Coding, MS office, Logic Pro X, Pro Tools</p>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "iconBox">
+                            <img style = "height: 60px"src = "mixer.png">
+                            <p>Studio Etiquette</p>
+                            <p style = "font-size: 20px;">Familiar with Studio Environment Protocol</p>
+                        </div>
+                        <div class = "iconBox">
+                            <img style = "height: 60px"src = "adobe.png">
+                            <p>Fluent in Adobe Creative Suite</p>
+                            <p style = "font-size: 20px;">Cartoons, graphics, videos, SFX</p>
+                        </div>
                     </div>
                 </div>
             </div>
