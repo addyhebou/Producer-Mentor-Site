@@ -60,7 +60,8 @@
     </header>
     <main>
         <div id = "titleHolder">
-            <video width = "1305px" autoplay muted>
+            <!-- width = "1305px" -->
+            <video autoplay muted>
                 <source src="Media/Me Playing Synth .mp4" type="video/mp4">
             </video>
             <div id = "title"></div>
@@ -106,10 +107,13 @@
                         </ul>
                 </ul>
             </div>
-            <video controls autoplay muted>
+            <video class = "desktop" controls autoplay muted>
                 <source src="Media/Me Playing Synth .mp4" type="video/mp4">
             </video>
         </div>
+        <video class = "mobile" width = "100%" controls autoplay muted>
+            <source src="Media/Me Playing Synth .mp4" type="video/mp4">
+        </video>
         <div class = "contentHolder" style = "display: block;">
             <div class = "content" style = "margin-bottom: 0px;">
                 <h1 id = "strengths" style = "padding-bottom: 10px;">Strengths</h1>
