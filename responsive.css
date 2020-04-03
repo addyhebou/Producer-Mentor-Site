@@ -58,6 +58,9 @@
   #moon{
     display: none;
   }
+  .ps{
+    display: none;
+  }
   
   #title{
     top: 95%;
@@ -134,6 +137,9 @@
   #moon{
     display: none;
   }
+  .ps{
+    display: none;
+  }
   
   #title{
     top: 95%;
@@ -204,6 +210,9 @@
     display: none;
   }
   #moon{
+    display: block;
+  }
+  .ps{
     display: block;
   }
   #title{
