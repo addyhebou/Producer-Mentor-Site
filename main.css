@@ -216,8 +216,9 @@ main{
     position: absolute;
     font-size: 90px;
     font-family: Selena;
-    top: 75%;
+    top: 1%;
     transition: all 0.5s;
+    margin-top: 90px;
 }
 
 #titleHolder{
@@ -229,20 +230,16 @@ main{
     background-position: 50% 50%;
 } 
 
-/* #titleHolder video{
+#titleHolder video{
     position: absolute; 
     right: 0; 
     bottom: 0;
-    min-width: 100%; 
-    min-height: 605px;
     width: auto; 
     height: auto; 
-    z-index: 0;
+    z-index: -1;
     background-size: cover;
     overflow: hidden;
-    
-    
-} */
+}
 
 ul li{
     font-size: 30px;
