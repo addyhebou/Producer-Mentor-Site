@@ -9,9 +9,10 @@ function turnOnNight(){
     document.querySelectorAll('i').forEach(e => e.style.color = "white");
     document.querySelectorAll('p').forEach(e => e.style.color = "white");
     document.getElementById('grayBox').style.backgroundColor = "#262626";
-    document.getElementById('bio').style.color = "white";
+    console.log(`hello`);
     document.querySelectorAll('header').forEach(e => e.style.borderTop = "6px solid rgb(224, 127, 224)");
     document.querySelectorAll('header').forEach(e => e.style.backgroundColor = "#262626");
+    console.log(`bye`);
 }
 
 function turnOffNight(){
