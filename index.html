@@ -9,8 +9,10 @@
     <link rel = "stylesheet" href = "main.css">
     <link rel = "stylesheet" href = "footer.css">
     <link rel = "stylesheet" href = "responsive.css">
+    <link rel = "stylesheet" href = "modal.css">
     <script src="https://kit.fontawesome.com/c5d1036b50.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="titleCard.js"></script>
+    <script type="text/javascript" src="modal.js"></script>
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/4c47feb0865e20f050092fe26/d9cb72b6824c33ea2c62e696f.js");</script>
 </head>
 <body class = "body" id = "bckgrnd" onload = "setInterval(changeTitle, 1000)">
@@ -68,6 +70,17 @@
         </div>
         <div class = "MessageHeader">
             <h1>Your next beat, collaboration, experience.</h1>
+        </div>
+
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Open Modal</button>
+
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+            </div>
         </div>
 
 
