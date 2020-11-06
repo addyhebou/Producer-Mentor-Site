@@ -1,3 +1,4 @@
+
 var night = false;
 var day = true;
 
@@ -41,57 +42,3 @@ function shiftColors(){
         turnOnNight();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let hoverElement = document.querySelector('.hoverElement');
-// let effectElement = document.querySelector('.otherThing');
-
-// hoverElement.addEventListener('hover', () =>{
-//     // effectElement.getElementsByClassName.style.backgroundColor = "black";
-//     effectElement.classList.add('changebg');
-// })
-
-// hoverElement.addEventListener('mouseout', () =>{
-//     effectElement.classList.remove('changebg');
-// })
-// hoverElement.addEventListener('click', () =>{
-//     effectElement.classList.remove('permanentchangebg');
-// })
-
-// .otherThing{
-//     background-color: rgba(0,0,0,0);
-//     transition: background-color 300ms ease;
-
-// }
-
-
-// .otherThing . changebg{
-//     background-color: (0,0,0,1);
-// }
-
-// .otherThing .permanentchangebg{
-//     background-color: rgba(0,0,0,0);
-// }
