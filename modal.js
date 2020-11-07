@@ -5,6 +5,7 @@ function showdiv(){
 }
 function closediv(){
     document.getElementById("openModal").style.visibility="hidden";
+    document.getElementById("openModal").style.display="none";
     document.getElementById("if").style.visibility="hidden";
     // document.getElementById("modal-content").style.visibility="hidden";
     console.log("CLOSED all🔥🔥🔥🔥🔥🔥🔥")
